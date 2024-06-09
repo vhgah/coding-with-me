@@ -1,0 +1,15 @@
+.content {
+  /* box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 40px 0px; */
+  @apply gap-8 flex flex-col px-6 py-8 rounded-xl items-center bg-white w-full;
+  @apply lg:p-28 md:p-20;
+}
+
+.content-item {
+  @apply opacity-100 translate-y-0;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-hidden {
+    @apply hidden;
+  }
+}

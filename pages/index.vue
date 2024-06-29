@@ -1,17 +1,8 @@
 <script>
 export default {
   layout: "Index page",
-  mounted() {
-    // this.axiosCall();
-  },
-  methods: {
-    axiosCall() {
-      this.$axios
-        .post("/user-activity-logs")
-        .then((response) => {})
-        .catch((error) => {});
-    },
-  },
+  mounted() {},
+  methods: {},
 };
 </script>
 

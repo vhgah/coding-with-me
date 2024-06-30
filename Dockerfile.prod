@@ -5,7 +5,7 @@ FROM node:16.14.0-alpine3.15
 WORKDIR /var/www/main
 
 # Copy dependencies instructions from local to image.
-COPY package.json .
+COPY package*.json .
 
 # Install dependencies
 RUN npm install

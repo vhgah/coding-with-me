@@ -20,7 +20,7 @@ ENV HOST 0.0.0.0
 # Override Chokidar pooling settings. It is important to make HMR work in WSL environment,
 # ENV CHOKIDAR_USEPOLLING=true
 # Expose port 3000. Exposing a port in Dockerfile usually works a type of documentation between image and container authors. This port is actually published in the container settings described on docker-compose.yml.
-EXPOSE 3000
+EXPOSE 5174
 
 # start the app
 CMD [ "npm", "start" ]
